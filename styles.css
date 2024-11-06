@@ -1,2 +1,18 @@
 /* styles.css */
 /* Add styles for gallery here */
+/* Style for the gallery container */
+.gallery {
+    display: flex;                  /* Enable flexbox */
+    flex-wrap: wrap;                /* Allow images to wrap to the next line */
+    justify-content: space-evenly;  /* Space the images evenly in the container */
+    align-items: center;            /*align images in the center */
+  }
+  
+  /* Style for each image */
+  .gallery img {
+    width: 200px;                   /* Set the width of each image */
+    height: auto;                   /* Maintain aspect ratio */
+    border-radius: 8px;             /* Optional: Add rounded corners */
+    object-fit: cover;              /* Scale images to fit without distortion */
+  }
+  
